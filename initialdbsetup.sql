@@ -31,10 +31,11 @@ CREATE TABLE IF NOT EXISTS crops (
     estimated_yield DECIMAL(10,2),
     yield_unit VARCHAR(20),
     status ENUM('planned', 'planted', 'growing', 'harvested', 'abandoned') DEFAULT 'planned',
-    last_updated DATE DEFAULT CURRENT_DATE,
+    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     notes TEXT,
     FOREIGN KEY (bed_id) REFERENCES garden_beds(id) ON DELETE SET NULL
 );
+
 
 -- Table: crop_harvests
 CREATE TABLE IF NOT EXISTS crop_harvests (
