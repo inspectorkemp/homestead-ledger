@@ -23,6 +23,7 @@ A minimalist Python Flask web app for tracking your homestead's gardens, crops, 
 
 1. **Install MySQL** and create the database and tables:
     - Use your provided SQL schema to create the `homestead` database and tables.
+    - Run initialdbsetup.sql against your newly installed instance for the table creation
 
 2. **Clone this repository** and install dependencies:
     ```bash
