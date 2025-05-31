@@ -82,9 +82,6 @@ A minimalist Python Flask web app for tracking your homestead's gardens, crops, 
 - You can extend it to add features like login, search, or reporting.
 - For production, consider running with a WSGI server (e.g., gunicorn) and behind a reverse proxy.
 
-## License
-
-MIT License
 
 ---
 
