@@ -1,3 +1,6 @@
+<img src="https://github.com/user-attachments/assets/c1924b0b-1c0c-4bff-b29d-67410bf8d332" width="400">
+
+
 # Homestead Tracking Web App
 
 A minimalist Python Flask web app for tracking your homestead's gardens, crops, chickens, pets, and equipment using a MySQL database.
