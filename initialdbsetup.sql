@@ -82,7 +82,7 @@ CREATE TABLE IF NOT EXISTS chickens (
     breed VARCHAR(100),
     purpose ENUM('egg', 'meat', 'dual'),
     sex ENUM('hen', 'rooster', 'unknown'),
-    hatch_date DATE,
+    hatch_date DATE DEFAULT '02-23-1984',
     acquired_date DATE,
     status ENUM('alive', 'butchered', 'sold', 'dead') DEFAULT 'alive',
     notes TEXT
@@ -120,7 +120,7 @@ CREATE TABLE IF NOT EXISTS pets (
     species ENUM('dog', 'cat', 'other'),
     breed VARCHAR(100),
     sex ENUM('male', 'female', 'unknown'),
-    birth_date DATE,
+    birth_date DATE DEFAULT '02-23-1984',
     acquired_date DATE,
     status ENUM('alive', 'deceased', 'rehomed') DEFAULT 'alive',
     notes TEXT
